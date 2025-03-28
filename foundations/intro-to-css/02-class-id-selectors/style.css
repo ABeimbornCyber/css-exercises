@@ -1,0 +1,12 @@
+.odd {
+    background-color: #cd5c5c;
+    font-family:'Verdana', DejaVuSans, sans-serif;
+}
+.odd#third{
+    font-size: 24px;
+
+}
+#second {
+    color: #0000ff;
+    font-size: 36px;
+}
