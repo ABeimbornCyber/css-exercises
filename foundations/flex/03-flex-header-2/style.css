@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -27,6 +30,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  
 }
 
 button {
@@ -35,6 +39,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 8px;
 }
 
 a {
@@ -44,5 +49,17 @@ a {
 }
 
 ul {
+  display: flex;
+  flex: auto;
+  gap:8px;
   list-style-type: none;
+}
+.account_info{
+
+  display: flex;
+  align-content: center;
+  gap: 8px;
+}
+.profile-image{
+  margin: 8px;
 }
