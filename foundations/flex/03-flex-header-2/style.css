@@ -62,4 +62,5 @@ ul {
 }
 .profile-image{
   margin: 8px;
+  flex-shrink: 0;
 }
