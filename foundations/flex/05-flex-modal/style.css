@@ -56,7 +56,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  
+  flex-shrink: 0;
 }
 
 button {
